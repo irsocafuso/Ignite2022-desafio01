@@ -1,0 +1,65 @@
+.task-list {
+  width: 736px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+}
+
+.task-list .header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 64px;
+}
+
+.task-list .header .created {
+  color: var(--blue);
+}
+
+.task-list .header p {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.task-list .header .done {
+  color: var(--purple);
+}
+
+.task-list .header .counter {
+  background: var(--gray-400);
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--gray-200);
+  padding: 2px 8px;
+  margin-left: 8px;
+}
+
+.task-list .body {
+  width: 100%;
+}
+
+.task-list .empty {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid var(--gray-400);
+  border-radius: 8px;
+  padding: 64px 24px;
+  gap: 16px;
+}
+
+.task-list .empty p {
+  text-align: center;
+  color: var(--gray-300);
+  font-weight: 700;
+}
+
+.task-list .empty p span {
+  font-weight: 400;
+}
